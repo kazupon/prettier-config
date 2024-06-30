@@ -2,8 +2,7 @@ name: Publish Any Commit
 on: [push, pull_request]
 
 jobs:
-  approved:
-    if: github.event.review.state == 'APPROVED'
+  pr-release:
     runs-on: ubuntu-latest
 
     steps:
