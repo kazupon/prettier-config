@@ -1,0 +1,57 @@
+{
+  "name": "@kazupon/prettier-config",
+  "version": "0.0.0",
+  "description": "Prettier config for @kazupon",
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "author": {
+    "name": "kazuya kawaguchi",
+    "email": "kawakazu80@gmail.com"
+  },
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/kazupon",
+  "bugs": {
+    "url": "https://github.com/kazupon/prettier-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazupon/prettier-config.git"
+  },
+  "homepage": "https://github.com/kazupon/prettier-config#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">= 18"
+  },
+  "main": "index.json",
+  "files": [
+    "index.json"
+  ],
+  "scripts": {
+    "prepare": "git config --local core.hooksPath .githooks",
+    "changelog": "gh-changelogen --repo=kazupon/prettier-config",
+    "release": "bumpp --commit \"release: v%s\" --all --push --tag",
+    "lint": "prettier . --check",
+    "fix": "prettier . --write"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "bumpp": "^9.4.1",
+    "gh-changelogen": "^0.2.8",
+    "lint-staged": "^15.2.7",
+    "prettier": "^3.3.2",
+    "typescript": "^5.5.2"
+  },
+  "lint-staged": {
+    "*.{json,md,yml}": [
+      "prettier --write"
+    ],
+    "*.{js,mjs,cjs}": [
+      "prettier --write"
+    ]
+  },
+  "prettier": "./index.json"
+}
