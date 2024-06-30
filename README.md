@@ -22,7 +22,7 @@ yarn add --dev @kazupon/prettier-config
 ```json
 {
   // ...
-  "prettier": "@kazupon/config"
+  "prettier": "@kazupon/prettier-config"
 }
 ```
 
