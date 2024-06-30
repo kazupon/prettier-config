@@ -1,7 +1,5 @@
-name: Publish Approved Pull Requests
-on:
-  pull_request_review:
-    types: [submitted]
+name: Publish Any Commit
+on: [push, pull_request]
 
 jobs:
   approved:
@@ -19,7 +17,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: "pnpm"
+          cache: 'pnpm'
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
