@@ -22,4 +22,5 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - run: pnpx pkg-pr-new publish
+      - name: Release for Pull request
+        run: pnpx pkg-pr-new publish
