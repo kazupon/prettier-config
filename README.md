@@ -1,8 +1,8 @@
-# @kazupon/utils
+# @kazupon/prettier-config
 
 Prettier config for @kauzpon
 
-## 🚀 Upsage
+## 🚀 Usages
 
 ### 💿 Installation
 
