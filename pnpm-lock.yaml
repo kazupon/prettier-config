@@ -21,8 +21,8 @@ importers:
         specifier: ^15.2.7
         version: 15.2.7
       pkg-pr-new:
-        specifier: ^0.0.25
-        version: 0.0.25
+        specifier: ^0.0.27
+        version: 0.0.27
       prettier:
         specifier: ^3.3.2
         version: 3.3.2
@@ -484,8 +484,8 @@ packages:
     engines: {node: '>=0.10'}
     hasBin: true
 
-  pkg-pr-new@0.0.25:
-    resolution: {integrity: sha512-3BspB84BvGOpb5s0Bs49XQCyJ3pLmyFyAqqduWuhoj9h5YdaVOf4FuThBEOb81tjsqK0RitFbBm1fSp2qUnuBg==}
+  pkg-pr-new@0.0.27:
+    resolution: {integrity: sha512-DFfztRUIvmY6YK5zFAdFipaoUEAp8pSj/363Bid2Bbwyy0zZYj+B7piSQ6KOX8F+GleYbAmM6IJOZG5VuLrTvQ==}
     hasBin: true
 
   pkg-types@1.1.1:
@@ -1115,7 +1115,7 @@ snapshots:
 
   pidtree@0.6.0: {}
 
-  pkg-pr-new@0.0.25:
+  pkg-pr-new@0.0.27:
     dependencies:
       '@jsdevtools/ez-spawn': 3.0.4
       '@octokit/action': 6.1.0
