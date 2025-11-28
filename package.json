@@ -38,8 +38,8 @@
     "fix": "prettier . --write --experimental-cli"
   },
   "devDependencies": {
-    "@types/node": "^20.19.25",
-    "bumpp": "^9.11.1",
+    "@types/node": "^24.10.1",
+    "bumpp": "^10.3.2",
     "gh-changelogen": "^0.2.8",
     "lint-staged": "^16.2.7",
     "pkg-pr-new": "^0.0.11",
@@ -55,5 +55,5 @@
     ]
   },
   "prettier": "./index.json",
-  "packageManager": "pnpm@9.15.9"
+  "packageManager": "pnpm@10.23.0"
 }
