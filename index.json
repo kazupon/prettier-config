@@ -5,7 +5,7 @@
   "printWidth": 100,
   "tabWidth": 2,
   "trailingComma": "none",
-  "endOfLine": "auto",
+  "endOfLine": "lf",
   "arrowParens": "avoid",
   "overrides": [
     {
