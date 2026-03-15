@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.10.1",
-    "bumpp": "^10.3.2",
+    "bumpp": "^11.0.0",
     "gh-changelogen": "^0.2.8",
     "lint-staged": "^16.2.7",
     "pkg-pr-new": "^0.0.65",
