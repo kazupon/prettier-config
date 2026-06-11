@@ -44,7 +44,7 @@
     "lint-staged": "^16.2.7",
     "pkg-pr-new": "^0.0.75",
     "prettier": "^3.7.1",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.0"
   },
   "lint-staged": {
     "*.{json,md,yml}": [
