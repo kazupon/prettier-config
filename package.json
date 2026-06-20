@@ -41,7 +41,7 @@
     "@types/node": "^24.10.1",
     "bumpp": "^10.3.2",
     "gh-changelogen": "^0.2.8",
-    "lint-staged": "^16.2.7",
+    "lint-staged": "^17.0.0",
     "pkg-pr-new": "^0.0.75",
     "prettier": "^3.7.1",
     "typescript": "^5.9.3"
