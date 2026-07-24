@@ -21,8 +21,8 @@ importers:
         specifier: ^16.2.7
         version: 16.2.7
       pkg-pr-new:
-        specifier: ^0.0.79
-        version: 0.0.79
+        specifier: ^0.0.80
+        version: 0.0.80
       prettier:
         specifier: ^3.7.1
         version: 3.7.1
@@ -255,8 +255,8 @@ packages:
     engines: {node: '>=0.10'}
     hasBin: true
 
-  pkg-pr-new@0.0.79:
-    resolution: {integrity: sha512-ip74NzaakGZha5s/X1T7j+Ez9/bRNDhzxQZTfnzAzoI7zO9JnMRdoiIfCLyy+ZzxxXg8WXRW2WcdvdORI0O30w==}
+  pkg-pr-new@0.0.80:
+    resolution: {integrity: sha512-a6Ie3sxNVrIkx5TQhe5+nbPbyLQg0jnrMNDYoXQpDXBaELxdDgwUVmlVThOSj7oKB3kEIrji5xyhSvWAWf5ABQ==}
     hasBin: true
 
   pkg-types@2.3.0:
@@ -575,7 +575,7 @@ snapshots:
 
   pidtree@0.6.0: {}
 
-  pkg-pr-new@0.0.79: {}
+  pkg-pr-new@0.0.80: {}
 
   pkg-types@2.3.0:
     dependencies:
